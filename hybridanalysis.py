@@ -5,6 +5,7 @@ from requests.auth import HTTPBasicAuth
 class HybridAnalysis:
     """
     HybridAnalysis : Ingest site data
+    Based on information from here: https://github.com/PayloadSecurity/VxAPI
     """
     base_url = 'https://www.hybrid-analysis.com'
     user_agent = 'VxApi CLI Connector'
